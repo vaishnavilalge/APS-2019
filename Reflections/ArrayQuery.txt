@@ -1,0 +1,23 @@
+Popular query optimisation techniques user are:
+
+LOOK UP TABLE
+Here lookup table is a 2D array.
+*	Time complexity = O(n^2)
+*	Space complexity = O(n^2)
+*	Searching/fetching time for an element = O(1)
+
+SQUARE ROOT DECOMPOSITION:
+Here table is a 1D array.
+*	Requires scanning of all the elements to build the table.
+* Time complexity = O(sqrt(n))
+*	Space complexity = O(sqrt(n)).
+*	Searching/fetching time for an element =O(sqrt(n))
+
+SEGMENT TREE:
+Here a tree structure is built.
+*	Tree constructing time = O(nlogn).
+*	Space complexity = O(nlogn).
+*	Searching/fetch time = O(logn).
+
+NOTE: lookup table and square root decomposition technique is effecient when values change ie, when its dynamic
+whereas segment tree is effecient when values are static.
